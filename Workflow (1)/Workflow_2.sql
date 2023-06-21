@@ -1,5 +1,11 @@
 -- Databricks notebook source
-Create or Replace Table wf_sample.silver_wf_sales
+Use CATALOG department;
+
+Use SCHEMA dept;
+
+-- COMMAND ----------
+
+Create or Replace Table silver_wf_sales
 As 
 Select 
   order_id,
