@@ -27,7 +27,7 @@ from
     unique_items,
     explode(items) as items
   From 
-    wf_sample.bronze_wf_sales
+    bronze_wf_sales
 )
 
 -- COMMAND ----------
